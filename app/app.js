@@ -4,10 +4,10 @@ const express = require("express");
 const app = express();
 
 //Routing
-const home = require("./routes/home");
+const home = require("./src/routes/home");
 
 //App set
-app.set("views", "./views");
+app.set("views", "./src/views");
 app.set("view engine", "ejs");
 
 
